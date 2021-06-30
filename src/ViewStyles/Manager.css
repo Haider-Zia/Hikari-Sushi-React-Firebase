@@ -1,0 +1,241 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(226, 253, 127);
+  color: #fff;
+  background-image: url(floor.jpg);
+
+  background-size: cover;
+}
+.ManagerMenuBar {
+  /*overflow: hidden;*/
+
+  width: 100%;
+}
+
+.logo {
+  width: 6vw;
+  float: left;
+}
+
+/* Style the links inside the navigation bar */
+.ManagerMenuBar a {
+  position: absolute;
+  margin-top: 0.7vw;
+  color: #ffffff;
+  text-align: center;
+  background-color: rgba(147, 197, 61, 0.76);
+  padding: 1vw 1vw;
+  text-decoration: none;
+  font-family: "Exo", sans-serif;
+  font-size: 1.5vw;
+  font-weight: 800;
+  border-radius: 1vw;
+  cursor: pointer;
+}
+
+/* Change the color of links on hover */
+.ManagerMenuBar a:hover {
+  background-color: rgba(126, 175, 41, 0.76);
+  color: #ffffff;
+}
+
+/* Add a color to the active/current link */
+.ManagerMenuBar a.active {
+  background-color: rgba(232, 240, 131, 0.6);
+  color: #a18d6c;
+}
+.ManagerMainLeft {
+  float: left;
+  padding: 2vw;
+  height: 10vw;
+}
+.ManagerMainBodyContainer {
+  position: absolute;
+  top: 20vw;
+  left: 30vw;
+  width: 40%;
+}
+.ManagerMainRight {
+  position: relative;
+  margin-top: 3vw;
+  float: right;
+  background-color: rgba(147, 197, 61, 0.76);
+
+  padding: 1.5vw;
+  border-radius: 1vw;
+  font-family: "Exo", sans-serif;
+  font-size: 1vw;
+  font-weight: 400;
+
+  box-shadow: 0 0.2vw 0.4vw 0 rgba(0, 0, 0, 0.2),
+    0 0.3vw 2vw 0 rgba(0, 0, 0, 0.2);
+}
+.ManagerMainRight p {
+  position: relative;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+.ManagerMainButton {
+  width: 16vw;
+  height: 2.8vw;
+  background: #fff;
+  border: 0.1vw solid #fff;
+  cursor: pointer;
+  border-radius: 0.4vw;
+  color: #a18d6c;
+  font-family: "Exo", sans-serif;
+  font-size: 1vw;
+  font-weight: 400;
+  padding: 1.5%;
+  margin-top: 1.3vw;
+  box-shadow: 0 0.2vw 0.4vw 0 rgba(0, 0, 0, 0.2),
+    0 0.3vw 2vw 0 rgba(0, 0, 0, 0.2);
+}
+
+.ManagerMainButton:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: #a18d6c;
+}
+
+.ManagerMainEmployees {
+  align-content: center;
+  width: 16vw;
+  height: 3vw;
+  color: #a18d6c;
+  font-family: "Exo", sans-serif;
+  font-size: 1vw;
+  font-weight: 400;
+}
+.AddEditEmployeeMenuBar {
+  /*overflow: hidden;*/
+
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.AddEditEmployeeMenuBar a {
+  position: absolute;
+  margin-top: 0.7vw;
+  color: #ffffff;
+  text-align: center;
+  background-color: rgba(147, 197, 61, 0.76);
+  padding: 1vw 1vw;
+  text-decoration: none;
+  font-family: "Exo", sans-serif;
+  font-size: 1.5vw;
+  font-weight: 800;
+  border-radius: 1vw;
+  cursor: pointer;
+}
+
+/* Change the color of links on hover */
+.AddEditEmployeeMenuBar a:hover {
+  background-color: rgba(126, 175, 41, 0.76);
+  color: #ffffff;
+}
+
+/* Add a color to the active/current link */
+.AddEditEmployeeMenuBar a.active {
+  background-color: rgba(232, 240, 131, 0.6);
+  color: #a18d6c;
+}
+
+.AddEditEmployeeBodyContainer {
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 35%;
+  background-color: rgba(147, 197, 61, 0.76);
+  height: 70%;
+  width: 30%;
+  padding: 5%;
+  border-radius: 1vw;
+  font-family: "Exo", sans-serif;
+  font-size: 2vw;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+
+  box-shadow: 0 0.2vw 0.4vw 0 rgba(0, 0, 0, 0.2),
+    0 0.3vw 2vw 0 rgba(0, 0, 0, 0.2);
+}
+.AddEditEmployeeF {
+  margin-left: 8%;
+}
+.AddEditEmployeeButton {
+  width: 17vw;
+  height: 3vw;
+  background: #fff;
+  border: 0.1vw solid #fff;
+  cursor: pointer;
+  border-radius: 0.5vw;
+  color: #a18d6c;
+  font-family: "Exo", sans-serif;
+  font-size: 1vw;
+  font-weight: 400;
+  padding: 1vw;
+  margin-top: 1vw;
+  /*transition-duration: 0.4s;*/
+}
+
+.AddEditEmployeeButton:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #a18d6c;
+}
+.AddEditEmployeeBodyContainer input[name="name"] {
+  width: 16vw;
+  height: 2vw;
+  background: transparent;
+  border: 0.2vw solid rgba(255, 255, 255, 0.6);
+  border-radius: 0.2vw;
+  color: #fff;
+  font-family: "Exo", sans-serif;
+  font-size: 2vw;
+  font-weight: 400;
+  padding: 0.2vw;
+  margin-bottom: 1vw;
+}
+.AddEditEmployeeBodyContainer input[name="position"] {
+  width: 16vw;
+  height: 2vw;
+  background: transparent;
+  border: 0.2vw solid rgba(255, 255, 255, 0.6);
+  border-radius: 0.2vw;
+  color: #fff;
+  font-family: "Exo", sans-serif;
+  font-size: 2vw;
+  font-weight: 400;
+  padding: 0.2vw;
+  margin-bottom: 1vw;
+}
+.AddEditEmployeeBodyContainer input[name="salary"] {
+  width: 16vw;
+  height: 2vw;
+  background: transparent;
+  border: 0.2vw solid rgba(255, 255, 255, 0.6);
+  border-radius: 0.2vw;
+  color: #fff;
+  font-family: "Exo", sans-serif;
+  font-size: 2vw;
+  font-weight: 400;
+  padding: 0.2vw;
+  margin-bottom: 1vw;
+}
+.AddEditEmployeeBodyContainer input[name="name"]:focus {
+  outline: none;
+  border: 0.2vw solid rgba(255, 255, 255, 0.9);
+}
+
+.AddEditEmployeeBodyContainer input[name="position"]:focus {
+  outline: none;
+  border: 0.2vw solid rgba(255, 255, 255, 0.9);
+}
+
+.AddEditEmployeeBodyContainer input[name="salary"]:focus {
+  outline: none;
+  border: 0.2vw solid rgba(255, 255, 255, 0.9);
+}
